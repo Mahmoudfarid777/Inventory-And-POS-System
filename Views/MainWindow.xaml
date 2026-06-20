@@ -1,0 +1,55 @@
+
+<Window x:Class="StoreApp.Views.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:vm="clr-namespace:StoreApp.ViewModels"
+        xmlns:views="clr-namespace:StoreApp.Views"
+        Title="Store Management System"
+        Width="1100" Height="700"
+        WindowStartupLocation="CenterScreen"
+        Background="{StaticResource PageBg}">
+
+    <Window.DataContext>
+        <vm:MainViewModel/>
+    </Window.DataContext>
+
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type vm:InventoryViewModel}">
+            <views:InventoryView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:SalesViewModel}">
+            <views:SalesView/>
+        </DataTemplate>
+        <DataTemplate DataType="{x:Type vm:HistoryViewModel}">
+            <views:HistoryView/>
+        </DataTemplate>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="220"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- ===== Sidebar ===== -->
+        <Border Grid.Column="0" Background="{StaticResource SidebarBrush}">
+            <DockPanel>
+                <StackPanel DockPanel.Dock="Top" Margin="20,24,20,16">
+                    <TextBlock Text="🏪 StoreApp"
+                               FontSize="18" FontWeight="Bold" Foreground="White"/>
+                    <TextBlock Text="{Binding WelcomeText}"
+                               Foreground="#AAB7C4" FontSize="12" Margin="0,4,0,0"/>
+                </StackPanel>
+                <Separator DockPanel.Dock="Top" Background="#3D5166" Margin="0,0,0,8"/>
+                <StackPanel DockPanel.Dock="Top">
+                    <Button Content="🛒  نقطة البيع"     Command="{Binding ShowSalesCommand}"     Style="{StaticResource SidebarButton}"/>
+                    <Button Content="📦  إدارة المخزون"  Command="{Binding ShowInventoryCommand}" Style="{StaticResource SidebarButton}"/>
+                    <Button Content="📋  سجل المعاملات"  Command="{Binding ShowHistoryCommand}"   Style="{StaticResource SidebarButton}"/>
+                </StackPanel>
+            </DockPanel>
+        </Border>
+
+        <!-- ===== منطقة المحتوى — تتغير تلقائياً بـ DataTemplate ===== -->
+        <ContentControl Grid.Column="1" Content="{Binding CurrentView}"/>
+    </Grid>
+</Window>

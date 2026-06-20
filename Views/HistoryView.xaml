@@ -1,0 +1,48 @@
+
+<UserControl x:Class="StoreApp.Views.HistoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="180"/>
+        </Grid.RowDefinitions>
+
+       
+        <Grid Grid.Row="0" Margin="0,0,0,16">
+            <TextBlock Text="📋 سجل المعاملات"
+                       FontSize="22" FontWeight="Bold" Foreground="#2C3E50"/>
+            <Button Content="↻ تحديث" Command="{Binding RefreshCommand}"
+                    Style="{StaticResource PrimaryButton}"
+                    HorizontalAlignment="Right" Width="100"/>
+        </Grid>
+
+        <DataGrid Grid.Row="1"
+                  ItemsSource="{Binding Transactions}"
+                  SelectedItem="{Binding SelectedTransaction, Mode=TwoWay}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="#"          Binding="{Binding T_ID}"            Width="60"  IsReadOnly="True"/>
+                <DataGridTextColumn Header="التاريخ"    Binding="{Binding TransactionDate, StringFormat={}{0:dd/MM/yyyy HH:mm}}" Width="160" IsReadOnly="True"/>
+                <DataGridTextColumn Header="الكاشير"    Binding="{Binding CashierName}"     Width="120" IsReadOnly="True"/>
+                <DataGridTextColumn Header="المجموع"    Binding="{Binding Subtotal,    StringFormat={}{0:C2}}" Width="110" IsReadOnly="True"/>
+                <DataGridTextColumn Header="الضريبة"    Binding="{Binding TaxAmount,   StringFormat={}{0:C2}}" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Header="الإجمالي"  Binding="{Binding TotalAmount, StringFormat={}{0:C2}}" Width="*"   IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+      
+        <TextBlock Grid.Row="2" Text="تفاصيل الفاتورة المختارة"
+                   FontSize="14" FontWeight="SemiBold" Foreground="#2C3E50" Margin="0,12,0,6"/>
+
+        <DataGrid Grid.Row="3" ItemsSource="{Binding SelectedItems}">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="المنتج"    Binding="{Binding ProductName}" Width="*"   IsReadOnly="True"/>
+                <DataGridTextColumn Header="السعر"     Binding="{Binding UnitPrice,  StringFormat={}{0:C2}}" Width="110" IsReadOnly="True"/>
+                <DataGridTextColumn Header="الكمية"    Binding="{Binding Quantity}"   Width="80"  IsReadOnly="True"/>
+                <DataGridTextColumn Header="الإجمالي" Binding="{Binding LineTotal,   StringFormat={}{0:C2}}" Width="110" IsReadOnly="True"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
+</UserControl>

@@ -1,0 +1,98 @@
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\StoreApp.exe
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\StoreApp.deps.json
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\StoreApp.runtimeconfig.json
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\StoreApp.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\StoreApp.pdb
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Azure.Core.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Azure.Identity.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.Data.SqlClient.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.Identity.Client.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.Identity.Client.NativeInterop.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Abstractions.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Logging.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.IdentityModel.Tokens.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.SqlServer.Server.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Core.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.WinForms.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\Microsoft.Web.WebView2.Wpf.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\System.ClientModel.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\System.IdentityModel.Tokens.Jwt.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\System.Memory.Data.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\System.Runtime.Caching.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\de\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\es\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\fr\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\it\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\ja\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\ko\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\pt-BR\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\ru\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\zh-Hans\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\zh-Hant\Microsoft.Data.SqlClient.resources.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\unix\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\Microsoft.Data.SqlClient.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-arm64\native\msalruntime_arm64.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-x64\native\msalruntime.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-x86\native\msalruntime_x86.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-arm64\native\WebView2Loader.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-x64\native\WebView2Loader.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win-x86\native\WebView2Loader.dll
+D:\StoreFinal_Complete\StoreFinal\bin\Debug\net10.0-windows\runtimes\win\lib\net8.0\System.Runtime.Caching.dll
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.csproj.AssemblyReference.cache
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Resources\Styles.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\AddEditProductDialog.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\CheckoutConfirmDialog.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\HistoryView.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\InventoryView.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\SalesView.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\App.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\AddEditProductDialog.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\CheckoutConfirmDialog.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\HistoryView.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\InventoryView.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\LoginWindow.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\MainWindow.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\SalesView.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\App.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp_MarkupCompile.cache
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp_MarkupCompile.lref
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\LoginWindow.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\MainWindow.baml
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.g.resources
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.GeneratedMSBuildEditorConfig.editorconfig
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.AssemblyInfoInputs.cache
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.AssemblyInfo.cs
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.csproj.CoreCompileInputs.cache
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.csproj.Up2Date
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.dll
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\refint\StoreApp.dll
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.pdb
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.genruntimeconfig.cache
+D:\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\ref\StoreApp.dll
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp.csproj.AssemblyReference.cache
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Resources\Styles.baml
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\AddEditProductDialog.baml
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\CheckoutConfirmDialog.baml
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\HistoryView.baml
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\InventoryView.baml
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\SalesView.baml
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\AddEditProductDialog.g.cs
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\CheckoutConfirmDialog.g.cs
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\HistoryView.g.cs
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\InventoryView.g.cs
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\LoginWindow.g.cs
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\MainWindow.g.cs
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\Views\SalesView.g.cs
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\GeneratedInternalTypeHelper.g.cs
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp_MarkupCompile.cache
+D:\StoreFinal_Complete (2)\StoreFinal_Complete\StoreFinal\obj\Debug\net10.0-windows\StoreApp_MarkupCompile.lref

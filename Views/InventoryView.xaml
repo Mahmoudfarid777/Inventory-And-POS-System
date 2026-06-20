@@ -1,0 +1,99 @@
+
+<UserControl x:Class="StoreApp.Views.InventoryView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <Grid Margin="24">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Text="📦 إدارة المخزون"
+                   FontSize="22" FontWeight="Bold" Foreground="#2C3E50" Margin="0,0,0,16"/>
+
+        <!-- شريط البحث + زر إضافة -->
+        <Grid Grid.Row="1" Margin="0,0,0,12">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="150"/>
+            </Grid.ColumnDefinitions>
+            <TextBox Grid.Column="0"
+                     Text="{Binding SearchText, UpdateSourceTrigger=PropertyChanged}"
+                     Margin="0,0,10,0"/>
+            <Button Grid.Column="1"
+                    Content="+ إضافة منتج"
+                    Command="{Binding AddCommand}"
+                    Style="{StaticResource SuccessButton}"/>
+        </Grid>
+
+        <!-- جدول المنتجات -->
+        <DataGrid Grid.Row="2"
+                  ItemsSource="{Binding Products}"
+                  SelectedItem="{Binding SelectedProduct, Mode=TwoWay}">
+
+            <DataGrid.RowStyle>
+                <Style TargetType="DataGridRow">
+                    <Setter Property="Background" Value="White"/>
+                    <Style.Triggers>
+                        <DataTrigger Binding="{Binding IsLowStock}" Value="True">
+                            <Setter Property="Background" Value="{StaticResource LowStockBg}"/>
+                            <Setter Property="Foreground" Value="{StaticResource LowStockFg}"/>
+                        </DataTrigger>
+                    </Style.Triggers>
+                </Style>
+            </DataGrid.RowStyle>
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="SKU"          Binding="{Binding SKU}"            Width="110" IsReadOnly="True"/>
+                <DataGridTextColumn Header="اسم المنتج"  Binding="{Binding P_Name}"          Width="*"   IsReadOnly="True"/>
+                <DataGridTextColumn Header="السعر"        Binding="{Binding Price, StringFormat={}{0:C2}}" Width="100" IsReadOnly="True"/>
+                <DataGridTextColumn Header="الكمية"       Binding="{Binding StockQuantity}"   Width="90"  IsReadOnly="True"/>
+                <DataGridTextColumn Header="حد التنبيه"  Binding="{Binding LowStockThreshold}" Width="110" IsReadOnly="True"/>
+
+                <DataGridTemplateColumn Header="الحالة" Width="90">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <Border CornerRadius="4" Padding="6,2" HorizontalAlignment="Center">
+                                <Border.Style>
+                                    <Style TargetType="Border">
+                                        <Setter Property="Background" Value="#D5F5E3"/>
+                                        <Style.Triggers>
+                                            <DataTrigger Binding="{Binding IsLowStock}" Value="True">
+                                                <Setter Property="Background" Value="#FADBD8"/>
+                                            </DataTrigger>
+                                        </Style.Triggers>
+                                    </Style>
+                                </Border.Style>
+                                <TextBlock FontSize="11" FontWeight="Bold">
+                                    <TextBlock.Style>
+                                        <Style TargetType="TextBlock">
+                                            <Setter Property="Text"       Value="متوفر ✓"/>
+                                            <Setter Property="Foreground" Value="#1E8449"/>
+                                            <Style.Triggers>
+                                                <DataTrigger Binding="{Binding IsLowStock}" Value="True">
+                                                    <Setter Property="Text"       Value="منخفض ⚠"/>
+                                                    <Setter Property="Foreground" Value="#C0392B"/>
+                                                </DataTrigger>
+                                            </Style.Triggers>
+                                        </Style>
+                                    </TextBlock.Style>
+                                </TextBlock>
+                            </Border>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <!-- أزرار تعديل وحذف — تُعطَّل تلقائياً عند عدم اختيار صف -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal"
+                    HorizontalAlignment="Right" Margin="0,12,0,0">
+            <Button Content="✏ تعديل" Command="{Binding EditCommand}"
+                    Style="{StaticResource PrimaryButton}" Width="110" Margin="0,0,8,0"/>
+            <Button Content="🗑 حذف"  Command="{Binding DeleteCommand}"
+                    Style="{StaticResource DangerButton}"  Width="110"/>
+        </StackPanel>
+    </Grid>
+</UserControl>
