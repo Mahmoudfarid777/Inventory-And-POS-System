@@ -1,12 +1,11 @@
 # 🏪 Store Management & Transaction Processing System
 
 <div align="center">
-
-![WPF](c:\Users\ITC\Pictures\mn)
-![C#](c:\Users\ITC\Pictures\mn\Screenshot (241).png)
-![SQL Server](c:\Users\ITC\Pictures\mn\Screenshot (242).png)
-![MVVM](c:\Users\ITC\Pictures\mn\Screenshot (255).png)
-![License](c:\Users\ITC\Pictures\mn\Screenshot (257).png)
+![WPF](https://img.shields.io/badge/WPF-.NET%2010-512BD4?style=for-the-badge&logo=dotnet)
+![C#](https://img.shields.io/badge/C%23-Latest-239120?style=for-the-badge&logo=csharp)
+![SQL Server](https://img.shields.io/badge/SQL%20Server-2019%2B-CC2927?style=for-the-badge&logo=microsoftsqlserver)
+![MVVM](https://img.shields.io/badge/Architecture-MVVM-blue?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Academic-orange?style=for-the-badge)
 
 **نظام متكامل لإدارة المخزون ومعالجة المبيعات**
 مبني بـ C# / WPF مع معمارية MVVM صارمة
