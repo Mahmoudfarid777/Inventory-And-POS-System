@@ -1,14 +1,17 @@
 # 🏪 Store Management & Transaction Processing System
 
-<div align="center">
-![WPF](https://img.shields.io/badge/WPF-.NET%2010-512BD4?style=for-the-badge&logo=dotnet)
-![C#](https://img.shields.io/badge/C%23-Latest-239120?style=for-the-badge&logo=csharp)
-![SQL Server](https://img.shields.io/badge/SQL%20Server-2019%2B-CC2927?style=for-the-badge&logo=microsoftsqlserver)
-![MVVM](https://img.shields.io/badge/Architecture-MVVM-blue?style=for-the-badge)
-![License](https://img.shields.io/badge/License-Academic-orange?style=for-the-badge)
+<img width="1366" height="768" alt="Screenshot (242)" src="https://github.com/user-attachments/assets/958521e6-98e2-40cf-bd57-7089580e2e72" />
+<img width="1366" height="768" alt="Screenshot (235)" src="https://github.com/user-attachments/assets/e6d6eb88-208e-43a1-a8ac-5c9d0665c96b" />
+<img width="1366" height="768" alt="Screenshot (255)" src="https://github.com/user-attachments/assets/c8f637e0-e13b-4be1-b681-b166fdf8aacf" />
+<img width="1366" height="768" alt="Screenshot (257)" src="https://github.com/user-attachments/assets/ada48353-1f61-4f10-9050-46c4a8a71bc1" />
+
+
+
+
+
 
 **نظام متكامل لإدارة المخزون ومعالجة المبيعات**
-مبني بـ C# / WPF مع معمارية MVVM صارمة
+مبنى ب # MVVM Architecture 
 
 
 
@@ -23,7 +26,7 @@
 - 🗄️ **Back-Office** — إدارة المخزون، التسعير، التقارير
 - 🛒 **Front-End POS** — نقطة بيع لمعالجة معاملات العملاء بشكل لحظي
 
-يُبرهن المشروع على تطبيق **معمارية MVVM** الكاملة في بيئة WPF، مع التكامل مع قاعدة بيانات SQL Server خارجية وتطبيق مفاهيم **Async/Await** و**SQL Transactions** لضمان سلامة البيانات.
+يُبرهن المشروع على تطبيق **  MVVM Architectur** الكاملة في بيئة WPF، مع التكامل مع قاعدة بيانات SQL Server خارجية وتطبيق مفاهيم **Async/Awai** و**SQL Transactions** لضمان سلامة البيانات.
 
 ---
 
